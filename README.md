@@ -22,4 +22,4 @@ FROM
   ON
   date
   
-The most interesting part of the query is the first sub-query, where I use a non-equijoin.
+The most interesting part of the query is the first sub-query, where I use a non-equijoin and a clever HAVING clause, to filter only hackers who have made submissions every day of the hackathon until that point in time.
